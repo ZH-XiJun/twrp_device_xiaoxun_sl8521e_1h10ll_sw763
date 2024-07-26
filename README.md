@@ -14,7 +14,7 @@ If the device cannot be found, that means I haven't built it yet or I failed to 
 
 ## Build
 
-I used [Action TWRP builder](https://github.com/azwhikaru/Action-TWRP-Builder) for building TWRP. Fork it and read its README.md
+Pls use my fork of [Action TWRP builder](https://github.com/zh-xijun/Action-TWRP-Builder) and choose "Recovery Build (Ubuntu 18.04)" to build TWRP since this device uses twrp-5.1 source.
 
 Device path is: `device/xiaoxun/sl8521e_1h10ll_sw763`
 
