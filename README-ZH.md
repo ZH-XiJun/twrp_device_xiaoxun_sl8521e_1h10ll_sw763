@@ -12,9 +12,7 @@
 
 ## 构建
 
-可使用[Action TWRP builder](https://github.com/azwhikaru/Action-TWRP-Builder)编译，具体怎么用看它的README.md即可
-
-我的[Fork](https://github.com/zh-xijun/action-twrp-builder)对于老旧安卓系统有做适配
+由于该设备使用twrp-5.1分支的源码，请使用我对[Action TWRP builder](https://github.com/azwhikaru/Action-TWRP-Builder)的[Fork](https://github.com/zh-xijun/action-twrp-builder)，用里面的Recovery Build (Ubuntu 18.04)脚本编译
 
 该设备树相对于源码的存放路径（DEVICE_PATH）：`device/xiaoxun/sl8521e_1h10ll_sw763`
 
