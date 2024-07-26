@@ -890,8 +890,8 @@ void selinux_init_all_handles(void)
 static bool selinux_is_disabled(void)
 {
     /* ALWAYS DISABLED! */
-        return true;
-    }
+    return true;
+}
 
 static bool selinux_is_enforcing(void)
 {
