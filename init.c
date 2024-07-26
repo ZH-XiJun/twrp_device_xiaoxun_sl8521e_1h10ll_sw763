@@ -889,24 +889,9 @@ void selinux_init_all_handles(void)
 
 static bool selinux_is_disabled(void)
 {
-#ifdef ALLOW_DISABLE_SELINUX
-    char tmp[PROP_VALUE_MAX];
-
-    if (access("/sys/fs/selinux", F_OK) != 0) {
-        /* SELinux is not compiled into the kernel, or has been disabled
-         * via the kernel command line "selinux=0".
-         */
+    /* ALWAYS DISABLED! */
         return true;
     }
-
-    if ((property_get("ro.boot.selinux", tmp) != 0) && (strcmp(tmp, "disabled") == 0)) {
-        /* SELinux is compiled into the kernel, but we've been told to disable it. */
-        return true;
-    }
-#endif
-
-    return false;
-}
 
 static bool selinux_is_enforcing(void)
 {
