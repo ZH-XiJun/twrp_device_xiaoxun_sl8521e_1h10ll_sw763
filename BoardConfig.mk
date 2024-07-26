@@ -11,12 +11,6 @@ DEVICE_PATH := device/xiaoxun/sl8521e_1h10ll_sw763
 ALLOW_MISSING_DEPENDENCIES := true
 
 # Architecture
-# TARGET_ARCH := arm
-# TARGET_ARCH_VARIANT := armv7-a-neon
-# TARGET_CPU_ABI := armeabi-v7a
-# TARGET_CPU_ABI2 := armeabi
-# TARGET_CPU_VARIANT := generic
-# TARGET_CPU_VARIANT_RUNTIME := generic
 TARGET_ARCH := arm
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
